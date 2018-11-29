@@ -2,9 +2,10 @@
   "name": "brawts",
   "version": "1.0.0",
   "description": "Typescript support for Braw",
-  "main": "node app/test.js",
   "scripts": {
-    "start": "node app/test.js",
+    "compile": "webpack",
+    "start-local": "node ./app/dist/test.js",
+    "start": "node project/app/dist/test.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -14,5 +15,11 @@
     "Braw"
   ],
   "author": "Angelo Perrello <locomain12@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^5.3.1",
+    "typescript": "^3.2.1",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2"
+  }
 }

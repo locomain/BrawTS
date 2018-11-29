@@ -6,4 +6,4 @@ services:
       - '8080:443'
       - '444:444'
     volumes:
-      - ./:/app
+      - ./:/project
