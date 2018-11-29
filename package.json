@@ -1,0 +1,18 @@
+{
+  "name": "brawts",
+  "version": "1.0.0",
+  "description": "Typescript support for Braw",
+  "main": "node app/test.js",
+  "scripts": {
+    "start": "node app/test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Javascript",
+    "MVVM",
+    "Typescript",
+    "Braw"
+  ],
+  "author": "Angelo Perrello <locomain12@gmail.com>",
+  "license": "ISC"
+}
