@@ -2,10 +2,10 @@ const path = require('path');
 
 module.exports = {
     mode:'development',
-    entry: './app/src/kaas.ts',
+    entry: './app/src/index.ts',
     output: {
         path: path.resolve(__dirname, 'app/dist'),
-        filename: "test.js"
+        filename: "index.js"
     },
     module: {
         rules: [

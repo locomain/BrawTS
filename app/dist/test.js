@@ -90,11 +90,10 @@
 /*!*************************!*\
   !*** ./app/src/kaas.ts ***!
   \*************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nvar DeDikkeMoeder = /** @class */ (function () {\r\n    function DeDikkeMoeder() {\r\n        this.mijnVar = \"nigga\";\r\n        this.mijnVar = \"AAAIDS BITCH\";\r\n        setInterval(function () { console.log(\"aaaids-2\"); }, 1000);\r\n    }\r\n    return DeDikkeMoeder;\r\n}());\r\n/* harmony default export */ __webpack_exports__[\"default\"] = (new DeDikkeMoeder());\r\n\n\n//# sourceURL=webpack:///./app/src/kaas.ts?");
+eval("throw new Error(\"Module build failed (from ./node_modules/ts-loader/index.js):\\nError: \\u001b[31merror while parsing tsconfig.json\\u001b[39m\\n    at Object.loader (X:\\\\XamppPHP7\\\\htdocs\\\\BrawTS\\\\node_modules\\\\ts-loader\\\\dist\\\\index.js:19:18)\");\n\n//# sourceURL=webpack:///./app/src/kaas.ts?");
 
 /***/ })
 

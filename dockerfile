@@ -8,5 +8,6 @@ EXPOSE 8080
 
 RUN npm install
 RUN npm run-script compile
+RUN npm run-script start
 
-CMD ["npm", "start"]
+CMD ["npm", "run-script watch"]

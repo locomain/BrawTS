@@ -2,10 +2,11 @@
   "name": "brawts",
   "version": "1.0.0",
   "description": "Typescript support for Braw",
+  "main":"app/dist/index.js",
   "scripts": {
     "compile": "webpack",
-    "start-local": "node ./app/dist/test.js",
-    "start": "node project/app/dist/test.js",
+    "watch": "webpack --watch",
+    "start-local": "node ./app/dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -21,5 +22,9 @@
     "typescript": "^3.2.1",
     "webpack": "^4.26.1",
     "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "@types/node": "^10.12.11",
+    "express": "^4.16.4"
   }
 }
