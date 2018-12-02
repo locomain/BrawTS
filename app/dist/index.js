@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _locomain_braw__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @locomain/braw */ \"./node_modules/@locomain/braw/build/braw.js\");\n/* harmony import */ var _locomain_braw__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_locomain_braw__WEBPACK_IMPORTED_MODULE_0__);\n\r\n//TEST\r\n_.component({\r\n    tag: \"app-ding\",\r\n    view: \"<h1>hallo</h1>\",\r\n    controller: /** @class */ (function () {\r\n        function controller() {\r\n        }\r\n        return controller;\r\n    }())\r\n});\r\n\n\n//# sourceURL=webpack:///./app/src/index.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _locomain_braw__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @locomain/braw */ \"./node_modules/@locomain/braw/build/braw.js\");\n/* harmony import */ var _locomain_braw__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_locomain_braw__WEBPACK_IMPORTED_MODULE_0__);\n/// <reference path=\"types.d.ts\" />\r\n\r\nfunction component(componentDescription) {\r\n    return function (target) {\r\n        componentDescription.controller = target;\r\n        braw.component(componentDescription);\r\n    };\r\n}\r\nfunction directive(directiveDescription) {\r\n    return function (target) {\r\n        directiveDescription.controller = target;\r\n        braw.directive(directiveDescription);\r\n    };\r\n}\r\n\n\n//# sourceURL=webpack:///./app/src/index.ts?");
 
 /***/ }),
 
