@@ -7,8 +7,15 @@ module.exports = {
         path: path.resolve(__dirname, 'app/dist'),
         filename: "index.js"
     },
+    resolve: {
+        extensions: ['.html' ],
+    },
     module: {
         rules: [
+            {
+                test: /\.html$/,
+                use: 'raw-loader'
+            },
             {
                 use: 'ts-loader',
                 exclude: /node_modules/
