@@ -1,9 +1,9 @@
 {
   "name": "@locomain/brawts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Typescript support for Braw",
   "main": "app/src/index.ts",
-  "types": "app/src/index.d.ts",
+  "types": "app/src/types.d.ts",
   "scripts": {
     "start" : "npm run-script compile",
     "compile": "webpack",
