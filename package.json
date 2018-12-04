@@ -1,13 +1,13 @@
 {
   "name": "@locomain/brawts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Typescript support for Braw",
   "main": "app/src/index.ts",
+  "types": "app/src/index.d.ts",
   "scripts": {
+    "start" : "npm run-script compile",
     "compile": "webpack",
-    "watch": "webpack --watch",
-    "start-local": "node ./app/dist/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "webpack --watch"
   },
   "keywords": [
     "Javascript",
@@ -18,16 +18,12 @@
   "author": "Angelo Perrello <locomain12@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "file-loader": "^2.0.0",
-    "html-loader": "^0.5.5",
-    "raw-loader": "^0.5.1",
     "ts-loader": "^5.3.1",
     "typescript": "^3.2.1",
     "webpack": "^4.26.1",
     "webpack-cli": "^3.1.2"
   },
   "dependencies": {
-    "@types/node": "^10.12.11",
-    "express": "^4.16.4"
+    "@locomain/braw": "^1.0.3"
   }
 }

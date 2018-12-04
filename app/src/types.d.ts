@@ -1,8 +1,3 @@
-declare module '*.html' {
-    var _: string;
-    export default  _;
-}
-
 type VDom = {
     name: string;
     value: string;
