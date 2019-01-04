@@ -1,6 +1,6 @@
 {
   "name": "@locomain/brawts",
-  "version": "1.0.1",
+  "version": "1.0.8",
   "description": "Typescript support for Braw",
   "main": "app/src/index.ts",
   "scripts": {
@@ -27,6 +27,7 @@
     "webpack-cli": "^3.1.2"
   },
   "dependencies": {
+    "@locomain/braw": "^1.0.4",
     "@types/node": "^10.12.11",
     "express": "^4.16.4"
   }
