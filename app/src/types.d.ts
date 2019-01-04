@@ -1,8 +1,4 @@
-declare module '*.html' {
-    var _: string;
-    export default  _;
-}
-
+/* Types */
 type VDom = {
     name: string;
     value: string;
@@ -35,5 +31,10 @@ type Braw = {
 declare var Component: Component;
 declare var Directive: Directive;
 
+/* Decorators */
+declare function component(componentDescription:any) : any;
+declare function directive(componentDescription:any) : any;
+
+/* Globals */
 declare var braw : Braw;
 declare var _ : Braw;
