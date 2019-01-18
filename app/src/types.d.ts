@@ -21,7 +21,13 @@ type Component = {
     onRender():void
 }
 
+type NavigationEngine = {
+    params: any,
+    navigate(): void
+}
+
 type Braw = {
+    navigationEngine: NavigationEngine,
     instance(): Braw,
     navigator(obj:any): void,
     component(obj:any):void

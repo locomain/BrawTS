@@ -1,6 +1,6 @@
 {
   "name": "@locomain/brawts",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "Typescript support for Braw",
   "main": "app/src/index.ts",
   "types": "app/src/types.d.ts",
